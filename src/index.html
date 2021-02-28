@@ -1,0 +1,157 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <nav id="navbar">
+      
+      <header><u>Beginning HTML Documentaion Page</u></header>
+
+      <ul class="ul">
+          
+          <hr>
+          <li><a class="nav-link" href="#!DOCTYPE_html_declaration">!DOCTYPE html declaration</a></li>
+           <hr>
+          <li><a class="nav-link" href="#html_tag">html tag</a></li>
+          <hr>
+          <li><a class="nav-link" href="#h1_-_h6_elements">h1 - h6 elements</a></li>
+          <hr>
+          <li><a class="nav-link" href="#p_tag">p tag</a></li>
+          <hr>
+          <li><a class="nav-link" href="#a_tag">a tag</a></li>
+          <hr>
+          <li><a class="nav-link" href="#body_tag">body tag</a></li>
+          <hr>
+          <li><a class="nav-link" href="#header_tag">header tag</a></li>
+          <hr>
+          
+      </ul>
+      
+    </nav>
+      
+    <h1>HTML Technical Documentation Page</h1>
+    
+    <main id="main-doc">
+      
+      <hr>
+      
+      <section class="main-section" id="!DOCTYPE_html_declaration">
+        
+        <header><u>!DOCTYPE html declaration</u></header>
+        
+          <article>
+            
+            <p>All <code>html</code> documents must start with a <code>!DOCTYPE html</code> </p>
+
+            <p>This is a declaration and is not an <code>html</code> tag. It is an "information" to the browser about what document type to expect.</p>
+          </article>
+      </section>
+    <hr>
+      <section class="main-section" id="html_tag">
+        <header><u> html tag </u></header>
+          <article>
+            <p>the root of a <code>HTML</code> document is represented by a tag known as the <code>html</code> tag</p>
+            <p> <code>html</code> tag is the container for all other <code>html</code> elements (except for the <code>!DOCTYPE html</code> tag).</p>
+          </article>
+      </section>
+      <hr>
+      <section class="main-section" id="h1_-_h6_elements">
+        <header><u>h1 - h6 elements</u></header>
+          <article> 
+            <p>The <code>h1-h6</code> elements represent six levels of section headings. <code>h1</code> is the highest section level and <code>h6</code> is the lowest.</p>
+            <h2><u>Usage Notes</u></h2>
+            
+            <ul class="li-design">
+              
+              <li>Heading information can be used by user agents to construct a table of contents for a document automatically.</li>
+              <br>
+              <li>Avoid using heading elements to resize text. Instead, use the CSS <code>font-size</code> property</li>
+              <br>
+              <li>Avoid skipping heading levels: always start from <code>h1</code>, followed by <code>h2</code> and so on.</li>
+                <br>
+                <li>Use only one <code>h1</code> per page or view. It should concisely describe the overall purpose of the content.</li>
+                  <br>
+                  <li>Using more than one <code>h1</code> will not result in an error, but is not considered a best practice. Using only one <code>h1</code> is beneficial for screenreader users, and SEO.</li>
+                    <br>
+                    <li>While HTML5 allows a <code>h1</code> per sectioning element, it is not considered best practice, and may subvert the expectations of how screen reader users navigate.</li>
+             
+           </ul>
+                    
+          </article>
+      </section>
+      <hr>
+      <section class="main-section" id="p_tag">
+        <header><u>p tag</u></header>
+          <article>
+            <p>The <code>p</code> tag defines a paragraph.</code> Browsers automatically add a single blank line before and after each <code>p</code> element.</p>
+      
+          </article>
+      </section>
+      <hr>
+      <section class="main-section" id="a_tag">
+        <header><u>a tag</u></header>
+          <article>
+            <p>The <code>a</code> tag defines a hyperlink, which is used to link from one page to another.</p>
+
+<p>The most important attribute of the <code>a</code> element is the href attribute, which indicates the link's destination.</p>
+            
+            <h2><u>By default, links will appear as follows in all browsers:</u></h2>
+            
+            <ul class="li-position">
+              
+              <li><span>An unvisited link is underlined and blue</span></li>
+              <br>
+              <li><span>A visited link is underlined and purple</span></li>
+              <br>
+              <li><span>An active link is underlined and red</span></li>
+              
+            </ul>
+              
+          </article>
+      </section>
+      <hr>
+      <section class="main-section" id="body_tag">
+        <header><u>body tag</u></header>
+          <article>
+            <p>The <code>body</code> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+            
+            <p>The <code>body</code> tag defines the document's body.</p>
+            
+            <p>There can only be one <code>body</code> element in an HTML document.
+
+</p>
+            
+          </article>
+      </section>
+      <hr>
+      <section class="main-section" id="header_tag">
+        <header><u>header tag</u></header>
+          <article>
+            <p>The <code>header</code> element represents a container for introductory content or a set of navigational links.</p>
+            
+            <h2>A <code>header</code> element typically contains:</h2>
+            
+            <br>
+            
+            <ul class="li-position">
+              
+              <li><span>one or more heading elements (<code>h1</code> - <code>h6</code>)</span></li>
+              <br>
+              <li><span>logo or icon</span></li>
+              <br>
+              <li><span>authorship information</span></li>
+              
+            </ul>
+            
+            <p>You can have several <code>header</code> elements in one HTML document. However, <code>header</code> cannot be placed within a <code>footer</code>, <code>address</code> or another <code>header</code> element.</p>
+            
+          </article>
+      </section>
+      <hr>
+  
+    </main>
+    
+  </body>
+</html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">

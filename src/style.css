@@ -1,0 +1,106 @@
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  minimum-width:300px;
+  background-color:white;
+  color:black;
+  font-family:DotGothic16;
+}
+  
+#navbar{
+   display:flex;
+  flex-direction:column;
+  align-items:center;
+   background-color:black;
+  color:white;
+    position: fixed;
+    top: 0;
+  left:0px;
+    width: 200px;
+    height: 100%;
+    border-right: dotted;
+    z-index: 1;
+    border-color: black;
+  text-align:center;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#main-doc{
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  background:white;
+  color:black;
+  left:218px;
+  padding:20px;
+  text-align:cente;
+}
+
+code{
+  background:gray;
+  color:black;
+  padding:2px;
+  
+}
+.nav-link{
+  color:white;
+  text-decoration:none;
+}
+.ul{
+  padding:20px;
+  list-style-type:none;
+}
+.li-design{
+  padding:40px;
+  background:gray;
+  
+}
+h2{
+  font-size:40px;
+}
+hr{
+ margin:50px 10px 50px 10px;
+}
+header{
+  font-size:20px;
+}
+h1{
+  position:absolute;
+  left:515px;
+  z-index:2;
+}
+
+li span{
+  position: relative;
+  left:1px;
+}
+
+.li-position{
+  position:relative;
+  left:345px;
+  width:300px;
+  background:gray;
+  padding:30px 20px 30px 30px;
+  margin:20px;
+}
+.nav-link{
+  
+}
+/* Smartphones (portrait and landscape)*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+}
+/* iPads (portrait and landscape)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
+/*Desktops and laptops*/ 
+@media only screen  and (min-width : 1224px){
+}
+/* Large screens*/
+@media only screen  and (min-width : 1824px){  
+}
+u{
+  text-underline-position:under;
+}
